@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Requirement : jq
+
+# Execution command: ./test.sh https://my-json-server.typicode.com/bmjain/sample-data/comments 1
 set -e
 if [[ $# -ne 2 ]] ; then
     echo 'Usage: $0 api_url postID '
